@@ -1,0 +1,21 @@
+AllCops:
+  Excludes:
+    - Berksfile
+    - recipes/basic.rb
+    - attributes/*.rb
+
+# Customize rules
+MethodLength:
+  Max: 150
+
+Metrics/AbcSize:
+   Enabled: false
+
+BlockLength:
+  Max: 70
+
+Metrics/ParameterLists:
+  Enabled: false
+
+Naming/MethodParameterName:
+  Enabled: false
